@@ -19,6 +19,9 @@ object Main {
 
     // withFileメソッドを使って、テキストファイルの中身を一行ずつ表示
     //Question.printFile("test.txt")
+
+    // Stack[共変]
+    //Question.printStack()
   }
 
   def test(): Unit = {
@@ -36,6 +39,10 @@ object Main {
 
     // トレイトの初期化順序
     //InitOrderTrait.hoge()
+
+    // 型パラメータ / Pair
+    //TypeParameter.divide(10, 5)
+
 
     // 関数
     //    val add = new Function2[Int, Int, Int]{
